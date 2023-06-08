@@ -8,12 +8,12 @@ it('should have a list of cars', () => {
             <CarList />
         </MemoryRouter>
     );
-    const listEl = container.getElementsByClassName('list');
-    expect(listEl.length).toBeGreaterThan(0);
+    const listElement = container.getElementsByClassName('list');
+    expect(listElement.length).toBeGreaterThan(0);
 });
 
 it('should have 5 cars in the list', () => {
-    const { container } = render(
+    const { container } = render(       // repete o render acima por que o teste deve ser independente
         <MemoryRouter>
             <CarList />
         </MemoryRouter>
