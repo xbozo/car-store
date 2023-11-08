@@ -1,5 +1,3 @@
-# CARdastro for React (by B7Web)
-
 The project is an user interface of a car list, where you can create, read, update and delete (CRUD) cars.
 
 Made with `React`, `Typescript`, `ContextAPI` and `React Router` as the main tecnologies.
